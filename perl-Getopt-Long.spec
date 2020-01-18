@@ -1,6 +1,6 @@
 Name:           perl-Getopt-Long
 Version:        2.40
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Extended processing of command line options
 License:        GPLv2+ or Artistic
 Group:          Development/Libraries
@@ -55,6 +55,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.40-2
+- Mass rebuild 2013-12-27
+
 * Thu Jun 20 2013 Petr Pisar <ppisar@redhat.com> - 2.40-1
 - 2.40 bump
 
